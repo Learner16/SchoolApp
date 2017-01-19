@@ -25,6 +25,12 @@
             li{
                 margin-bottom: 15px;
                 @include headerTextColor;
+                span{
+                 //   margin-left: 20px;
+                }
+                i.fa{
+                    width: 25px;
+                }
             }
         }
     }

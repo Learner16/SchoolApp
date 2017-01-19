@@ -21,8 +21,8 @@
       color: #990000; }
   #login div .newField span a {
     color: #990000; }
-  #login div .newField:last-child {
-    text-align: center; }
+  #login div .newField #forgotPasswordLink {
+    margin-left: 25%; }
 
 #home [data-role="panel"] [data-role="header"] {
   background: #990000;
@@ -43,6 +43,8 @@
   #home [data-role="panel"] ul li {
     margin-bottom: 15px;
     color: #990000; }
+    #home [data-role="panel"] ul li i.fa {
+      width: 25px; }
 #home [data-role="header"] {
   background: #990000;
   color: #ffffff;
@@ -72,7 +74,5 @@
     margin-bottom: 15px; }
   #forgotPassword .newField span {
     color: #990000; }
-  #forgotPassword .newField:last-child {
-    text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
