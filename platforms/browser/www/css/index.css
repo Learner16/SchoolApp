@@ -1,0 +1,78 @@
+#login div h2 {
+  color: #990000; }
+#login div .newField {
+  margin-left: 30px;
+  margin-top: 45px; }
+  #login div .newField label {
+    color: #696969; }
+  #login div .newField input[type="text"], #login div .newField input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 90%; }
+  #login div .newField button {
+    border: 1px solid #990000;
+    border-radius: 5px;
+    background: none;
+    color: #990000;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px; }
+    #login div .newField button a {
+      color: #990000; }
+  #login div .newField span a {
+    color: #990000; }
+  #login div .newField:last-child {
+    text-align: center; }
+
+#home [data-role="panel"] [data-role="header"] {
+  background: #990000;
+  height: 200px; }
+  #home [data-role="panel"] [data-role="header"] img {
+    height: 125px;
+    position: absolute;
+    top: 25px;
+    left: 25px; }
+  #home [data-role="panel"] [data-role="header"] span {
+    color: #ffffff;
+    font-weight: normal;
+    position: absolute;
+    bottom: 0px;
+    left: 40px; }
+#home [data-role="panel"] ul {
+  list-style: none; }
+  #home [data-role="panel"] ul li {
+    margin-bottom: 15px;
+    color: #990000; }
+#home [data-role="header"] {
+  background: #990000;
+  color: #ffffff;
+  text-align: center;
+  height: 50px; }
+  #home [data-role="header"] span {
+    text-align: center; }
+
+#forgotPassword h2 {
+  color: #990000; }
+#forgotPassword .newField {
+  margin-left: 30px;
+  margin-top: 45px; }
+  #forgotPassword .newField label {
+    color: #696969; }
+  #forgotPassword .newField input[type="text"], #forgotPassword .newField input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 90%; }
+  #forgotPassword .newField button {
+    border: 1px solid #990000;
+    border-radius: 5px;
+    background: none;
+    color: #990000;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px; }
+  #forgotPassword .newField span {
+    color: #990000; }
+  #forgotPassword .newField:last-child {
+    text-align: center; }
+
+/*# sourceMappingURL=index.css.map */

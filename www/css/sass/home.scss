@@ -1,0 +1,43 @@
+@import 'common';
+
+#home{
+    [data-role="panel"]{
+        [data-role="header"]{
+            background: $primaryColorRed;
+            height: 200px;
+            img{
+                    
+                    height: 125px;
+                    position: absolute;
+                    top: 25px;
+                    left: 25px;
+            }
+            span{
+                    color: $primaryColorWhite;
+                    font-weight: normal;
+                    position: absolute;
+                    bottom: 0px;
+                    left: 40px;
+            }
+        }
+        ul{
+            list-style: none;
+            li{
+                margin-bottom: 15px;
+                @include headerTextColor;
+            }
+        }
+    }
+    [data-role="header"]{
+        background: $primaryColorRed;
+        color: $primaryColorWhite;
+        text-align: center;
+        height: 50px;
+        span{
+             //   position: absolute;
+             //   left: 80px;
+             //   top: 15px;
+             text-align: center;
+        }
+    }
+}

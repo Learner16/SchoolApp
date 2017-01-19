@@ -1,0 +1,27 @@
+//-------------------------------------------Variables
+$leftMargin: 30px;
+$primaryColorRed: #990000;
+$primaryColorWhite: #ffffff;
+$primaryColorLightGray: #ccc;
+$primaryColorGray: #696969;
+
+//-------------------------------------------Mixins
+@mixin headerTextColor {
+  color: $primaryColorRed;
+}
+
+@mixin textFieldStyle{
+    border:none;
+    border-bottom : 2px solid $primaryColorLightGray;
+    width:90%;
+}
+
+@mixin buttonStyle{
+    border: 1px solid $primaryColorRed;
+    border-radius: 5px;
+    background: none;
+    color: $primaryColorRed;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}

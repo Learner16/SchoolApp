@@ -1,0 +1,36 @@
+
+@import 'common';
+
+#login{
+    div{
+    //margin-left: $leftMargin;
+    h2{
+        @include headerTextColor;
+    }
+    .newField{
+        margin-left: 30px;
+        margin-top: 45px;
+        label{
+            color: $primaryColorGray;
+        }
+        input[type="text"],input[type="password"]{
+            @include textFieldStyle;
+        }
+        button{
+            @include buttonStyle;
+            a{
+                 @include headerTextColor;
+            }
+        }
+        span
+        {
+            a{
+            color: $primaryColorRed;
+             }
+        }
+        &:last-child{
+            text-align: center;
+        }
+     }
+    }
+}
